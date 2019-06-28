@@ -1,0 +1,177 @@
+body {
+    flex-flow: wrap;
+}
+
+.container {
+    background-image: url("TreeBack.jpg");
+    background-repeat:repeat;
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+}
+
+.header {
+    background-color: dimgray;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+}
+
+#lh {
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+
+#lr {
+    width: 10%;
+    height: 150px;
+    float: right;
+}
+
+#lc {
+
+    height: 150px;
+    float: center;
+}
+
+
+.ninjapic1 {
+    margin: 20px;
+}
+
+.ninjapic2 {
+    margin: 20px;
+    float: right;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    float: center;
+}
+
+#pic {
+    position:absolute;
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    float: left;
+    margin-left:auto;
+}
+#pic2 {
+    position:relative;
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    float: right;
+    margin-right:15px;
+}
+
+#games {
+    position:relative;
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    float:right;
+    clear:both;
+}
+
+#camper {
+    box-sizing: content-box;
+    width: 484px;
+    height: 362px;
+    transform: rotate(90deg);
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 100%;
+}
+
+#name {
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 55px;
+    position: relative;
+    font-family: monospace;
+    font-size: 60px;
+    color: white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;  
+}
+#sensei{
+       display: inline-block;
+    margin-left: 110px;
+    margin-top: 60px;
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;   
+}
+
+#listtitle {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 55px;
+    position: relative;
+    font-family: monospace;
+    font-size: 60px;
+    color: white;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+ul {
+    list-style-image: url("Photos/ninjaFaceBullet.png");
+    padding-top:5px;
+}
+
+li {
+
+    margin-left: 40px;
+    margin-top: 0px;
+    position: relative;
+    font-family: monospace;
+    font-size: 60px;
+    color: white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+a:link{
+    color:white;
+    font-style:inherit;
+    font-size:inherit;
+    text-decoration: inherit;
+}
+a:visited{
+    color:white;
+    font-style:inherit;
+    font-size:inherit;
+    text-decoration: inherit;
+}
+a:hover{
+    color:lightgrey;
+    text-decoration: inherit;
+}
+
